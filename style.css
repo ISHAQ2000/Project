@@ -15,10 +15,12 @@ a{
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
-    font: weight 700px; ;
+    font-weight: 700;
 }
-section{
+.flexible{
     display: flex;
+    margin-bottom: 100px;
+
 }
 .half-width{
     width:50%;
@@ -31,4 +33,26 @@ section{
             background-image: url(top-banner.png);
             background-repeat: no-repeat;
 
+}
+#dream{ 
+    text-decoration: none;
+    background-image: linear-gradient(rgb(228, 176, 235),rgb(177, 10, 135));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#dream-big{ 
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+.text-color{
+    color: orange;
+}
+#bac-imag-2{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
 }
