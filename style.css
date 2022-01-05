@@ -55,4 +55,29 @@ a{
 #bac-imag-2{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.dev{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray; 
+    border-radius: 10px;
+    
+
+}
+h2{
+    font-size: 40px;
+}
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(206, 153, 111),rgb(231, 92, 12));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
